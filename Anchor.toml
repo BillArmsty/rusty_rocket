@@ -5,14 +5,14 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-rustysolana = "EzN6P2ZuFz8arhAHs59u5vSz2A5X2LFH6Cmb6iVzxX9g"
+rustysolana = "DvNkYwKFYEpLvvTgZ9yCEoBwG37d54LxCbJ6X1fBzMyp"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
-wallet = "~/.config/solana/id.json"
+cluster = "localnet"
+wallet = "/home/bill/.config/solana/id.json"
 
 [scripts]
 test = "yarn run mocha -t 1000000 tests/"
