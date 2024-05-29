@@ -978,6 +978,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "close-account"
+version = "0.1.0"
+dependencies = [
+ "solana-client",
+ "solana-program",
+ "solana-sdk",
+]
+
+[[package]]
 name = "combine"
 version = "3.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
